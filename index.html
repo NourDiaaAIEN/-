@@ -16,16 +16,24 @@
   </style>
 </head>
 <body class="min-h-screen flex items-center justify-center p-6 text-white bg-black/70 relative">
-
   <!-- اسم الطالب أعلى اليمين -->
   <div class="absolute top-4 right-4 text-sm text-white">
     إعداد الطالب: نور ضياء
   </div>
 
+  <!-- اسم المشرف أعلى اليسار -->
+  <div class="absolute top-4 left-4 text-sm text-white">
+    بإشراف: رياض ابوهويدي
+  </div>
+
+  
+</div>
+
   <div id="app" class="max-w-3xl w-full bg-gray-800/90 rounded-2xl shadow-lg p-8 flex flex-col items-center justify-center">
     <!-- العنوان قبل زر البدء -->
     <h1 class="text-3xl font-bold text-white mb-6">اختبار التراث السعودي</h1>
-    
+    <!-- اللوجو -->
+    <img src="ChatGPT Image Sep 21, 2025, 04_35_58 PM.png" alt="شعار" class="mx-auto mb-4 w-24 h-24 object-contain">
     <!-- زر البدء -->
     <button onclick="startQuiz()" class="px-6 py-3 bg-pink-600 hover:bg-pink-700 rounded-lg text-xl font-bold">
       إبدأ التحدي
@@ -156,7 +164,7 @@
           
           <!-- اسم الطالب والإشراف -->
           <p class="mt-2 text-lg">الطالب: <span class="font-semibold">نور ضياء</span></p>
-          <p class="text-lg">إشراف: <span class="font-semibold">رياض هويدي</span></p>
+          <p class="text-lg">بإشراف: <span class="font-semibold">رياض ابوهويدي</span></p>
           
           <div class="mt-6 flex items-center justify-center gap-3">
             <button onclick="startQuiz()" class="px-5 py-2 rounded-lg bg-pink-600 hover:bg-pink-700">إعادة</button>
@@ -198,4 +206,3 @@
   </script>
 </body>
 </html>
-
